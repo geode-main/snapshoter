@@ -1,8 +1,9 @@
 # Cover & Ruler Reimbursement Snapshot
 
 ## Results can be found under [results directory](./results/).
-[Google Sheet link for Cover](https://docs.google.com/spreadsheets/d/1jvEuEU3B7autLe3Jd31vjBhN0a8TawfVS9XMIz5MVoo/edit?usp=sharing)
-[Google Sheet link for Ruler](https://docs.google.com/spreadsheets/d/13vLPJ6m_IQc0wamaYXStAipsWjJkHq-GMMYoV16Wfh8/edit?usp=sharing)
+> [Google Sheet link for Cover](https://docs.google.com/spreadsheets/d/1jvEuEU3B7autLe3Jd31vjBhN0a8TawfVS9XMIz5MVoo/edit?usp=sharing)
+
+> [Google Sheet link for Ruler](https://docs.google.com/spreadsheets/d/13vLPJ6m_IQc0wamaYXStAipsWjJkHq-GMMYoV16Wfh8/edit?usp=sharing)
 
 
 ## Blacklisted addresses and other important addresses are explained below.
