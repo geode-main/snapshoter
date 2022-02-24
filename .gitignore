@@ -1,7 +1,4 @@
 *.env
-results/*
-!results/result
-!results/final
 venv/
 *.ipynb
 __pycache__

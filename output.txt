@@ -1,0 +1,187 @@
+Cover:
+
+Reading addresses
+block: 11592071 to 13162680
+11612071
+done! in 22s
+Unique address count : 12909
+
+Reading balances
+0x7d3C13FC1037652545395882Ba64C3F024E30841
+done! in 310s
+TotSup:82000000000000000000000 -> Found:82000000000000000000000
+
+Finding contracts
+0x7d3C13FC1037652545395882Ba64C3F024E30841
+301 contracts found in 153s
+
+Contract: 0xF5BCE5077908a1b7370B9ae04AdC565EBd643966, Balance:123298717755036938782
+NO PLUGIN: default
+
+
+Contract: 0xa921392015eB37c5977c4Fd77E14DD568c59D5F8, Balance:12267243560231616850784
+Found plugin: xToken
+
+Reading addresses
+block: 11592071 to 13162680
+13142071
+done! in 6s
+Unique address count : 307
+
+Reading balances
+0x6E4c282CC4E21526CE0ddc5F636A14211FF58ac2
+done! in 11s
+TotSup:11936032281908381430937 -> Found:11936032281908381430937
+distributed 12268
+
+
+Contract: 0x859Eefc267671595d987D0F6589D7771D4877113, Balance:680117200658363987670
+Found plugin: Gnosis
+
+
+Contract: 0x49B8a0893B83A171D7d461198b69A0b1bb4dd0Ed, Balance:175000000000000008040
+Found plugin: Gnosis
+
+
+Contract: 0x15957f0CA310d35b2E73fB5070Ce44A5B0141AB1, Balance:14262990322568748571321
+Found plugin: Gnosis
+
+
+Contract: 0xc698645B5C5b662B52a5A5C092804F23e3F5B4C5, Balance:632743881389125323174
+Found plugin: Gnosis
+
+
+Contract: 0xE98567885Df519dFeB12C0E268dD5d9b798bD531, Balance:2157873355615441588600
+NO PLUGIN: default
+
+
+Contract: 0x66Ae32178640813F3c32a9929520BFE4Fef5D167, Balance:2519370270976008005701
+Found plugin: sushiswap
+
+Reading addresses
+block: 11592071 to 13162680
+13142071
+done! in 8s
+Unique address count : 539
+
+Reading balances
+0xAC842B4e34e64e4729Af5c399497034556840644
+done! in 14s
+TotSup:570557364368075452791 -> Found:570557364368075452791
+distributed 2520
+
+
+Contract: 0x4d246bE90C2f36730bb853aD41d0a189061192d3, Balance:229217413141262319075
+NO PLUGIN: default
+
+
+Contract: 0x21011BC93d9E515B9511A817A1eD1D6d468f49Fc, Balance:1371154949485604423719
+Found plugin: cream
+
+Reading addresses
+block: 11592071 to 13162680
+13142071
+done! in 6s
+Unique address count : 76
+
+Reading balances
+0x13623CfC024D5c4865728e30b7C3b4E98733adbc
+done! in 3s
+TotSup:8918926306713 -> Found:8918926306713
+distributed 1372
+
+
+done! in 208s
+Blacklisting from 12933 address...
+blacklisted token amount :1.645039598559522e+22
+
+Cover done! in 542s
+distributed 65550 to 5530 addresses
+
+Ruler:
+
+Reading addresses
+block: 11963006 to 13162680
+13133006
+done! in 12s
+Unique address count : 3712
+
+Reading balances
+0x926F974a623c51CAc02c7f5C178Dc6d2F431C23D
+done! in 91s
+TotSup:1000000000000000000000000 -> Found:1000000000000000000000000
+
+Finding contracts
+0x926F974a623c51CAc02c7f5C178Dc6d2F431C23D
+125 contracts found in 44s
+
+Contract: 0xFA1F8518d3E6D69A04b88E96a9e3e7588D19cA0c, Balance:286201682898225702611
+NO PLUGIN: default
+
+
+Contract: 0xCe7D2FE4d364C973829195d25b6967087faFd499, Balance:10708531820321802492823
+NO PLUGIN: default
+
+
+Contract: 0x01F7Fd324b366380D2145Dfa6C7A76fdb75f17B9, Balance:134262967994375726358224
+Found plugin: xToken
+
+Reading addresses
+block: 11963006 to 13162680
+13153006
+done! in 5s
+Unique address count : 950
+
+Reading balances
+0x81BB56B1d47Ca5958601194511e6948e04cF0980
+done! in 23s
+TotSup:96824407269614494270788 -> Found:96824407269614494270788
+distributed 134263
+
+
+Contract: 0x3423c8Af3a95D9FEE7Ec06c4e0E905D4fd559F89, Balance:4826414511248962748746
+NO PLUGIN: default
+
+
+Contract: 0xb1EECFea192907fC4bF9c4CE99aC07186075FC51, Balance:62502578184760367074326
+Found plugin: sushiswap
+
+Reading addresses
+block: 11963006 to 13162680
+13153006
+done! in 6s
+Unique address count : 838
+
+Reading balances
+0x5fC79E21CEca2Aa0F7a0aAC71EF3dddE8f004E9e
+done! in 23s
+TotSup:3049082687229892145654 -> Found:3049082687229892145654
+Masterchef balance:2060287948125112485381
+
+Reading masterchef balances
+Masterchef balance:2.0602879481251124e+21: distributed
+distributed 62503
+
+
+Contract: 0x49B8a0893B83A171D7d461198b69A0b1bb4dd0Ed, Balance:190011938444799527346476
+Found plugin: Gnosis
+
+
+Contract: 0x2EDf26c1D56158B06F692B9f6D6547018417c181, Balance:3762269432964015623979
+NO PLUGIN: default
+
+
+Contract: 0x6BeF09F99Bf6d92d6486889Bdd8A374af151461D, Balance:483610344284301912007284
+Found plugin: Gnosis
+
+
+Contract: 0x05927a6DA8D004e9b26CA7aE6e6523470aB02Da4, Balance:85118824673389142567228
+NO PLUGIN: default
+
+
+done! in 132s
+Blacklisting from 3764 address...
+blacklisted token amount :8.782098613096871e+23
+
+Ruler done! in 235s
+distributed 121791 to 1009 addresses

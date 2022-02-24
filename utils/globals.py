@@ -4,7 +4,9 @@ from web3 import Web3, HTTPProvider
 load_dotenv()
 
 w3 = Web3(HTTPProvider(getenv('provider')))
-currenToken = None
+currentToken = None
+mainToken = None
+masterChef = None
 creation = None
 snapshot = None
 floorLimit = 100e18

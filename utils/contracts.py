@@ -33,8 +33,6 @@ def findContracts(balancesOf):
     print(f"\n{len(contracts)} contracts found in {ceil(time() - start_time)}s")
 
     for c in contracts:
-        # print(i, end="\r", flush=True)
-        # if isContract(a) and balancesOf[a] > globals.floorLimit:
         if(balancesOf[c] > globals.floorLimit):
             distributed_balances[c] = distributeTokens(
                 c, balancesOf[c])
@@ -45,16 +43,15 @@ def findContracts(balancesOf):
 
 def distributeContractBals(balancesOf):
     distributed_balances = findContracts(balancesOf)
+    cBal = sum(balancesOf.values())
 
-    # print(f"Found contracts : {len(distributed_balances)}")
-    # print({k: v for k, v in sorted(contractBals.items(), key=lambda item: item[1],reverse=True)})
+    for c in distributed_balances:  # do not override in a for loop: seperated: plugins can pay other plugins
+        balancesOf[c] = 0
 
     for c in distributed_balances:
-        balancesOf[c] = 0
         for a in distributed_balances[c]:
             if a in balancesOf:
-                balancesOf[a] += distributed_balances[c][a]
+                balancesOf[a] = balancesOf[a] + distributed_balances[c][a]
             else:
                 balancesOf[a] = distributed_balances[c][a]
-
     return balancesOf

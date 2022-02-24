@@ -6,7 +6,18 @@ from math import ceil
 
 def getAddressBalance(address):
     print(address, end="\r", flush=True)
-    return globals.currentToken.functions.balanceOf(address).call(block_identifier=globals.snapshot)
+    counter = 0
+    bal = None
+    while bal is None:
+        try:
+            bal = globals.currentToken.functions.balanceOf(
+                address).call(block_identifier=globals.snapshot)
+        except:
+            if counter < 10:
+                counter += 1
+            else:
+                raise Exception("couldn't get the data...")
+    return bal
 
 
 def getBalances(addresses):

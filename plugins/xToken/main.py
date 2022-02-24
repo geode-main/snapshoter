@@ -32,10 +32,13 @@ def detect(address):
 def distribute(address, balance):
     # use getAllUniqueAddresses && getBalances to distribute balances and then return
     add = Web3.toChecksumAddress(address)
-    everyone = getAllUniqueAddresses(token=add)
     creamLp = globals.w3.eth.contract(abi=abi, address=add)
     globals.currentToken = creamLp
+
+    everyone = getAllUniqueAddresses(token=add)
     balances = getBalances(everyone)
     distributed = distWeighted(dict(zip(everyone, balances)), balance)
+
+    globals.currentToken = globals.mainToken
     print(f"distributed {ceil(balance/1e18)}")
     return distributed
